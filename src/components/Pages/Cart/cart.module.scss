@@ -1,0 +1,186 @@
+.wrap_cart {
+    width: 100%;
+}
+.wrap_cart_top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.cart_top {
+    width: 60%;
+    height: 2px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    align-items: center;
+}
+
+.cart_top_item {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+}
+.inner_icon {
+    position: absolute;
+}
+.cart_content {
+    display: flex;
+}
+.cart_content-prd {
+    width: 60%;
+}
+.cart_content-pay {
+    flex: 1;
+}
+.table {
+    width: 100%;
+    text-align: center;
+}
+.table th {
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-collapse: collapse;
+    border-bottom: 2px solid #ccc;
+}
+.input_pay {
+    width: 30px;
+}
+.span_pay {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: none;
+}
+.img_pay_prd {
+    width: 160px;
+}
+.table td {
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc;
+}
+.table td:nth-child(2) {
+    max-width: 120px;
+}
+.color_prd {
+    max-width: 30px;
+}
+.cart_content_pay-item {
+    width: 80%;
+    margin-left: 30px;
+    padding: 20px 10px;
+    border-left: 2px solid #ccc;
+    text-align: center;
+}
+.total_rice_cart_title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.wrap_chitiet_prd_pay {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+}
+.chitiet_pay {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.title_rice_pay {
+    font-size: 18px;
+    font-weight: 500;
+}
+.number_rice_pay {
+    font-size: 18px;
+    font-weight: 500;
+}
+.chuthich {
+    margin: 20px 0;
+    font-size: 15px;
+}
+.chuthich2 {
+    font-size: 15px;
+    color: red;
+}
+.wrap_btn_pay {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+.btn_pay_1 {
+    border: 2px solid #000;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 20px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.btn_pay_2 {
+    color: #fff;
+    background-color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    height: 37px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: center;
+    border-radius: 8px;
+}
+.font_text_link {
+    list-style: none;
+    color: #bf8a49;
+    text-decoration: none;
+}
+.cart_mobile {
+    display: none;
+}
+.numb_prd {
+    margin-left: 20px;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.total_rice_moblie {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    & p {
+        font-size: 1.7rem;
+    }
+    & h2 {
+        color: #ac2f33;
+        font-size: 1.8rem;
+    }
+}
+.wrap_pay_mobile {
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .table {
+        display: none;
+    }
+    .cart_content-pay {
+        display: none;
+    }
+    .cart_content {
+        display: block;
+    }
+    .cart_mobile {
+        display: block;
+    }
+}

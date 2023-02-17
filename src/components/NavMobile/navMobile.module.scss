@@ -1,0 +1,55 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9999999;
+    transform: translateX(-100%);
+    transition: all ease 0.4s;
+    &.show {
+        transform: translateX(0);
+    }
+}
+
+.exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.8rem;
+}
+.children {
+    margin-top: 80px;
+    padding: 0 18px;
+}
+.option {
+    width: 100%;
+    margin-top: 28px;
+}
+.option_show {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.option_child {
+    padding-left: 16px;
+    display: none;
+    &.show_child {
+        display: block;
+    }
+}
+.option_title {
+    font-size: 1.8rem;
+}
+.option_title_child {
+    font-size: 1.4rem;
+    margin-top: 12px;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+.option_icon {
+    font-size: 1.8rem;
+}

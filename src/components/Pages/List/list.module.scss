@@ -1,0 +1,140 @@
+.cartegory_top {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    color: #65676b;
+    padding-left: 12px;
+}
+.title_cartegory {
+    margin-right: 12px;
+    font-size: 1.5rem;
+}
+.cartegory_content {
+    width: 100%;
+    display: flex;
+}
+.sidebar_cartegogy {
+    width: 20%;
+}
+.wrap_item_cartegory {
+    flex: 1;
+}
+.option_cartegory_sidebar {
+    padding: 10px 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.title_option_item {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.option_item_parent {
+    list-style: none;
+    margin-left: 20px;
+}
+.option_item_child {
+    font-size: 1.6rem;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.title_and_option_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+.wrap_option_item {
+    display: flex;
+    margin-right: 50px;
+    width: 170px;
+}
+.btn_option {
+    width: 100%;
+    display: flex;
+    border: 1px solid #333;
+    padding: 5px 5px;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.select_option {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.product_item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.product {
+    padding: 10px;
+    width: 25%;
+    text-decoration: none;
+    color: #333;
+}
+.wrap_img_product {
+    width: 100%;
+
+    object-fit: cover;
+}
+.img_product {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img_prd {
+    width: 100%;
+}
+.infor_product {
+    text-align: center;
+}
+.descreption {
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: 18px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    margin: 10px 5px;
+}
+.rice {
+    font-size: 1.6rem;
+}
+.option_cartegory_sidebar.active ul {
+    display: block;
+}
+.product_infor {
+    display: flex;
+}
+.icon_span {
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+    .sidebar_cartegogy {
+        display: none;
+    }
+    .title_and_option_item {
+        display: block;
+    }
+    .wrap_option_item {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .btn_option {
+        width: 50%;
+    }
+    .product {
+        width: 50%;
+    }
+    .descreption,
+    .rice {
+        font-size: 1.4rem;
+    }
+}

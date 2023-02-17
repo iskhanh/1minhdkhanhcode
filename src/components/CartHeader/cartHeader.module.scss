@@ -1,0 +1,133 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+    transform: translateX(100%);
+    box-shadow: 0 12px 28px 0 rgb(0 0 0 / 20%), 0 2px 4px 0 rgb(0 0 0 / 10%);
+    background-color: #fff;
+    &.show {
+        transform: translateX(0);
+    }
+    transition: all ease 0.4s;
+}
+.close {
+    font-size: 1.8rem;
+    padding: 4px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+.header {
+    display: flex;
+    position: relative;
+    height: 60px;
+    align-items: center;
+    margin: 0 20px;
+}
+.total_item {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+.wrap_img {
+    width: 64px;
+}
+.container {
+    padding: 0 20px;
+    position: relative;
+    overflow: auto;
+    max-height: 420px;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+.container::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+.product {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0;
+    position: relative;
+}
+.img {
+    width: 100%;
+}
+.infor {
+    margin-left: 16px;
+    height: 100%;
+}
+.name_prd {
+    font-size: 1.6rem;
+    color: #373737;
+    font-weight: 500;
+}
+.color {
+    font-size: 1.5rem;
+    color: #373737;
+    margin-top: 8px;
+}
+.rice {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #ac2f33;
+}
+.remove {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.see_cart {
+    padding: 16px 0;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.log_in {
+    padding: 16px 0;
+    font-size: 1.3rem;
+    color: #4b4e51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+    margin-top: 20px;
+}
+.total {
+    position: absolute;
+    top: -30px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+}
+.total_title {
+    font-size: 1.4rem;
+}
+.total_rice {
+    font-size: 1.7rem;
+    margin-left: 6px;
+}

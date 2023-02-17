@@ -1,0 +1,147 @@
+.wrapper {
+    display: flex;
+}
+.form_validate {
+    width: 50%;
+}
+.form {
+    display: block;
+}
+.title_form {
+    margin: 16px 0;
+}
+.form_group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+.input_form {
+    outline: none;
+    padding: 10px;
+    width: 60%;
+}
+.method_pay {
+    width: 100%;
+    border: 1px solid #f2e6e6;
+    border-radius: 8px;
+    padding: 25px;
+}
+.group_item {
+    display: flex;
+    margin-top: 16px;
+}
+.text_method {
+    font-size: 1.4rem;
+    margin-left: 6px;
+}
+.pay_action {
+    width: 50%;
+}
+.children {
+    background-color: #fbfbfc;
+    width: 420px;
+    padding: 16px;
+    margin: 0 auto;
+}
+.group_infor {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin-top: 8px;
+}
+.submit {
+    width: 100%;
+    background-color: #000;
+    font-size: 2rem;
+    color: #fff;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn_pay_1 {
+    width: 100%;
+    background-color: #fff;
+    font-size: 2rem;
+    color: #333;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 1px solid #333;
+}
+.err_message {
+    color: red;
+    margin-top: 6px;
+}
+.wrapper_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.8s;
+}
+.children_overlay {
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.icon {
+    font-size: 17rem;
+}
+.text {
+    font-size: 1.8rem;
+    margin-top: 8px;
+}
+.exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.8rem;
+}
+.hidepay {
+    display: none;
+}
+@media only screen and (max-width: 480px) {
+    .wrapper {
+        display: block;
+        padding: 0 8px;
+    }
+    .form_validate {
+        width: 100%;
+    }
+    .input_form {
+        width: 80%;
+    }
+    .method_pay {
+        padding: 8px;
+    }
+    .pay_action {
+        width: 100%;
+    }
+    .children {
+        width: 100%;
+    }
+
+    .icon {
+        font-size: 14rem;
+    }
+    .text {
+        font-size: 1.6rem;
+    }
+}

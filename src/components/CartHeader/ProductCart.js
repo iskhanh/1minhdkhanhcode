@@ -33,7 +33,7 @@ function ProductCart() {
                                 <p className={cx('color')}>Màu sắc: {data.colorOption}</p>{' '}
                                 <p className={cx('color')}>size: {data.sizeOption}</p>
                             </div>
-                            <h2 className={cx('rice')}>{data.rice.toLocaleString() + 'đ'}</h2>
+                            <h2 className={cx('rice')}>{data.rice.toLocaleString().replace(/,/g, '.') + 'đ'}</h2>
                         </div>
                     );
                 })}

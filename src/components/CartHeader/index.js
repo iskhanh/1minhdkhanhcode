@@ -1,12 +1,10 @@
 import styles from './cartHeader.module.scss';
 import classNames from 'classnames/bind';
-import { CreateContextProvider, showCart } from '../Contextt';
-import { useContext, useEffect, useState } from 'react';
+import { showCart } from '../Contextt';
+import { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrash, faXmark } from '@fortawesome/free-solid-svg-icons';
-import prd1 from '../../assets/img/prd1.jpg';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { useDispatch, useSelector } from 'react-redux';
-import { removeItem } from '../store/cartSlice';
 import { Link } from 'react-router-dom';
 import ProductCart from './ProductCart';
 const cx = classNames.bind(styles);
@@ -36,14 +34,20 @@ function CartHeader() {
             <div className={cx('footer')}>
                 <div className={cx('total')}>
                     <span className={cx('total_title')}>Tổng cộng:</span>
-                    <h2 className={cx('total_rice')}>{rice.toLocaleString()}</h2>
+                    <h2 className={cx('total_rice')}>{rice.toLocaleString().replace(/,/g, '.') + 'đ'}</h2>
                 </div>
-                <Link className={cx('see_cart')} to={'/cart'}>
+                <Link
+                    className={cx('see_cart')}
+                    to={'/cart'}
+                    onClick={() => {
+                        context.handleHide();
+                    }}
+                >
                     <h2>Xem giỏ hàng</h2>
                 </Link>
-                <div className={cx('log_in')}>
+                <Link className={cx('log_in')} to={'/login'} onClick={() => context.handleHide()}>
                     <h2>Đăng nhập</h2>
-                </div>
+                </Link>
             </div>
         </div>
     );

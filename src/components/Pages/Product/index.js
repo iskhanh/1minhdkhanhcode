@@ -2,10 +2,7 @@ import classNames from 'classnames/bind';
 import styles from './product.module.scss';
 
 import img1 from '../../../assets/img/prd1.jpg';
-import img2 from '../../../assets/img/prd2.jpg';
-import img3 from '../../../assets/img/prd3.jpg';
-import img4 from '../../../assets/img/prd4.jpg';
-import img5 from '../../../assets/img/prd5.jpg';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faBagShopping,
@@ -18,7 +15,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { getById } from '../../../assets/fakData';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addItem } from '../../store/cartSlice';
 import { Link, useParams } from 'react-router-dom';
@@ -34,6 +31,7 @@ function Product() {
     const param = useParams();
     const navigate = useNavigate();
     const numb = Number(param.id);
+    console.log(numb, param);
     const [sizeOption, setSizeOption] = useState(null);
     const [colorOption, setColorOption] = useState(null);
     const data = getById(numb);
@@ -147,7 +145,7 @@ function Product() {
                 </div>
                 <div className={cx('wrap_prd_infor-text')}>
                     <h2 className={cx('title_infor_text')}>{data[0].name}</h2>
-                    <h2 className={cx('title_infor_text')}>{data[0].rice.toLocaleString()}đ</h2>
+                    <h2 className={cx('title_infor_text')}>{data[0].rice.toLocaleString().replace(/,/g, '.')}đ</h2>
                     <p className={cx('color_text')}>
                         <b>Màu sắc</b>:
                     </p>
@@ -183,10 +181,8 @@ function Product() {
                     {!sizeOption && <p className={cx('error')}>Vui lòng chọn size</p>}
 
                     <div className={cx('wrap_btn_action')}>
-                        <button className={cx('wrap_muahang')}>
-                            <p className={cx('text_in_box')} onClick={handlebuy}>
-                                Mua hàng
-                            </p>
+                        <button className={cx('wrap_muahang')} onClick={handlebuy}>
+                            <p className={cx('text_in_box')}>Mua hàng</p>
                         </button>
                         <button className={cx('wrap_timcuahang')} onClick={handledp}>
                             <p className={cx('text_in_box')}>Thêm vào giỏ hàng</p>

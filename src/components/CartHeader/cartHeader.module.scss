@@ -7,6 +7,7 @@
     transform: translateX(100%);
     box-shadow: 0 12px 28px 0 rgb(0 0 0 / 20%), 0 2px 4px 0 rgb(0 0 0 / 10%);
     background-color: #fff;
+    z-index: 10;
     &.show {
         transform: translateX(0);
     }
@@ -116,6 +117,7 @@
     justify-content: center;
     border: 1px solid #333;
     margin-top: 20px;
+    text-decoration: none;
 }
 .total {
     position: absolute;

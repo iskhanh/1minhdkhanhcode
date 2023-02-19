@@ -12,13 +12,13 @@ function NavMobile() {
     const context = useContext(showCart);
     const data = [
         {
-            id: 1,
             title: 'Nữ',
+            id: 1,
             children: [
                 {
                     titleChild: 'Áo thun',
                     sex: 'male',
-                    branch: 'ao-thun',
+                    branch: 'ao-thun-nu',
                 },
                 {
                     titleChild: 'Áo sơ mi',
@@ -38,34 +38,34 @@ function NavMobile() {
             ],
         },
         {
-            id: 2,
             title: 'Nam',
+            id: 2,
             children: [
                 {
                     titleChild: 'Áo thun',
-                    sex: 'male',
+                    sex: 'man',
                     branch: 'ao-thun',
                 },
                 {
-                    titleChild: 'Áo sơ mi',
-                    sex: 'male',
-                    branch: 'so-mi',
+                    titleChild: 'Áo vest ',
+                    sex: 'man',
+                    branch: 'vest',
                 },
                 {
-                    titleChild: 'Áo len',
-                    sex: 'male',
-                    branch: 'ao-len',
+                    titleChild: 'Áo phao',
+                    sex: 'man',
+                    branch: 'ao-phao',
                 },
                 {
-                    titleChild: 'Áo crop',
-                    sex: 'male',
-                    branch: 'crop',
+                    titleChild: 'Quần lửng',
+                    sex: 'man',
+                    branch: 'quan-lung',
                 },
             ],
         },
         {
-            id: 3,
             title: 'Trẻ em',
+            id: 3,
             children: [
                 {
                     titleChild: 'Áo thun',
@@ -90,8 +90,8 @@ function NavMobile() {
             ],
         },
         {
-            id: 4,
             title: 'BST',
+            id: 4,
             children: [
                 {
                     titleChild: 'Áo thun',
@@ -116,8 +116,8 @@ function NavMobile() {
             ],
         },
         {
-            id: 5,
             title: 'Khẩu trang',
+            id: 5,
             children: [
                 {
                     titleChild: 'Áo thun',
@@ -142,7 +142,6 @@ function NavMobile() {
             ],
         },
         {
-            id: 6,
             title: 'Thông tin',
         },
     ];
@@ -182,6 +181,7 @@ function NavMobile() {
                                                 key={index}
                                                 className={cx('option_title_child')}
                                                 to={`/list/${c.sex}/${c.branch}`}
+                                                onClick={() => context.handleHideNavMobile()}
                                             >
                                                 {c.titleChild}
                                             </Link>

@@ -1,7 +1,6 @@
 import styles from './pay.module.scss';
 import classNames from 'classnames/bind';
 import { useContext, useState } from 'react';
-import { faL } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBagShopping, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { showCart } from '../../Contextt';
@@ -95,8 +94,8 @@ function Pay() {
         handleAddress();
     };
     const submit = () => {
+        handleSubmit();
         if (errorName || errorPhone || errorCity || errorDistrict || errorComune || errorAddress) {
-            handleSubmit();
             setShow(false);
         } else {
             setShow(true);

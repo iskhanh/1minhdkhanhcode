@@ -94,6 +94,102 @@ import somi7c from '../assets/img/somi7c.jpg';
 import somi8a from '../assets/img/somi8a.jpg';
 import somi8b from '../assets/img/somi87.jpg';
 import somi8c from '../assets/img/somi8c.jpg';
+import thunnam1a from '../assets/img/thunnam1a.jfif';
+import thunnam1b from '../assets/img/thunnam1b.jfif';
+import thunnam1c from '../assets/img/thunnam1c.jfif';
+import thunnam2a from '../assets/img/thunnam2a.jfif';
+import thunnam2b from '../assets/img/thunnam2b.jfif';
+import thunnam2c from '../assets/img/thunnam2c.jfif';
+import thunnam3a from '../assets/img/thunnam3a.jfif';
+import thunnam3b from '../assets/img/thunnam3b.jfif';
+import thunnam3c from '../assets/img/thunnam3c.jfif';
+import thunnam4a from '../assets/img/thunnam4a.jfif';
+import thunnam4b from '../assets/img/thunnam4b.jfif';
+import thunnam4c from '../assets/img/thunnam4c.jfif';
+import thunnam5a from '../assets/img/thunnam5a.jfif';
+import thunnam5b from '../assets/img/thunnam5b.jfif';
+import thunnam5c from '../assets/img/thunnam5c.jfif';
+import thunnam6a from '../assets/img/thunnam6a.jfif';
+import thunnam6b from '../assets/img/thunnam6b.jfif';
+import thunnam6c from '../assets/img/thunnam6c.jfif';
+import thunnam7a from '../assets/img/thunnam7a.jfif';
+import thunnam7b from '../assets/img/thunnam7b.jfif';
+import thunnam7c from '../assets/img/thunnam7c.jfif';
+import thunnam8a from '../assets/img/thunnam8a.jfif';
+import thunnam8b from '../assets/img/thunnam8b.jfif';
+import thunnam8c from '../assets/img/thunnam8c.jfif';
+import phaonam1a from '../assets/img/phaonam1a.jfif';
+import phaonam1b from '../assets/img/phaonam1b.jfif';
+import phaonam1c from '../assets/img/phaonam1c.jfif';
+import phaonam2a from '../assets/img/phaonam2a.jfif';
+import phaonam2b from '../assets/img/phaonam2b.jfif';
+import phaonam2c from '../assets/img/phaonam2c.jfif';
+import phaonam3a from '../assets/img/phaonam3a.jfif';
+import phaonam3b from '../assets/img/phaonam3b.jfif';
+import phaonam3c from '../assets/img/phaonam3c.jpg';
+import phaonam4a from '../assets/img/phaonam4a.jpg';
+import phaonam4b from '../assets/img/phaonam4b.jpg';
+import phaonam4c from '../assets/img/phaonam4c.jpg';
+import phaonam5a from '../assets/img/phaonam5a.jpg';
+import phaonam5b from '../assets/img/phaonam5b.jpg';
+import phaonam5c from '../assets/img/phaonam5c.jpg';
+import phaonam6a from '../assets/img/phaonam6a.jpg';
+import phaonam6b from '../assets/img/phaonam6b.jpg';
+import phaonam6c from '../assets/img/phaonam6c.jpg';
+import phaonam7a from '../assets/img/phaonam7a.jpg';
+import phaonam7b from '../assets/img/phaonam7b.jpg';
+import phaonam7c from '../assets/img/phaonam7c.jpg';
+import phaonam8a from '../assets/img/phaonam8a.jfif';
+import phaonam8b from '../assets/img/phaonam8b.jpg';
+import phaonam8c from '../assets/img/phaonam8c.jfif';
+import vestnam1a from '../assets/img/vestnam1a.jpg';
+import vestnam1b from '../assets/img/vestnam1b.jpg';
+import vestnam1c from '../assets/img/vestnam1c.jpg';
+import vestnam2a from '../assets/img/vestnam2a.jfif';
+import vestnam2b from '../assets/img/vestnam2b.jfif';
+import vestnam2c from '../assets/img/vestnam2c.jfif';
+import vestnam3a from '../assets/img/vestnam3a.jfif';
+import vestnam3b from '../assets/img/vestnam3b.jfif';
+import vestnam3c from '../assets/img/vestnam3c.jpg';
+import vestnam4a from '../assets/img/vestnam4a.jfif';
+import vestnam4b from '../assets/img/vestnam4b.jfif';
+import vestnam4c from '../assets/img/vestnam4c.jfif';
+import vestnam5a from '../assets/img/vestnam5a.jpg';
+import vestnam5b from '../assets/img/vestnam5b.jpg';
+import vestnam5c from '../assets/img/vestnam5c.jpg';
+import vestnam6a from '../assets/img/vestnam6a.jpg';
+import vestnam6b from '../assets/img/vestnam6b.jpg';
+import vestnam6c from '../assets/img/vestnam6c.jpg';
+import vestnam7a from '../assets/img/vestnam7a.jpg';
+import vestnam7b from '../assets/img/vestnam7b.jpg';
+import vestnam7c from '../assets/img/vestnam7c.jpg';
+import vestnam8a from '../assets/img/vestnam8a.jpg';
+import vestnam8b from '../assets/img/vestnam8b.jpg';
+import vestnam8c from '../assets/img/vestnam8c.jpg';
+import lungnam1a from '../assets/img/lungnam1a.jfif';
+import lungnam1b from '../assets/img/lungnam1b.jfif';
+import lungnam1c from '../assets/img/lungnam1c.jfif';
+import lungnam2a from '../assets/img/lungnam2a.jfif';
+import lungnam2b from '../assets/img/lungnam2b.jfif';
+import lungnam2c from '../assets/img/lungnam2c.jfif';
+import lungnam3a from '../assets/img/lungnam3a.jfif';
+import lungnam3b from '../assets/img/lungnam3b.jfif';
+import lungnam3c from '../assets/img/lungnam3c.jfif';
+import lungnam4a from '../assets/img/lungnam4a.jfif';
+import lungnam4b from '../assets/img/lungnam4b.jfif';
+import lungnam4c from '../assets/img/lungnam4c.jfif';
+import lungnam5a from '../assets/img/lungnam5a.jfif';
+import lungnam5b from '../assets/img/lungnam5b.jfif';
+import lungnam5c from '../assets/img/lungnam5c.jfif';
+import lungnam6a from '../assets/img/lungnam6a.jfif';
+import lungnam6b from '../assets/img/lungnam6b.jfif';
+import lungnam6c from '../assets/img/lungnam6c.jfif';
+import lungnam7a from '../assets/img/lungnam7a.jfif';
+import lungnam7b from '../assets/img/lungnam7b.jfif';
+import lungnam7c from '../assets/img/lungnam7c.jfif';
+import lungnam8a from '../assets/img/lungnam8a.jfif';
+import lungnam8b from '../assets/img/lungnam8b.jfif';
+import lungnam8c from '../assets/img/lungnam8c.jfif';
 
 export {
     aothun1a,
@@ -192,4 +288,100 @@ export {
     somi8a,
     somi8b,
     somi8c,
+    thunnam1a,
+    thunnam1b,
+    thunnam1c,
+    thunnam2a,
+    thunnam2b,
+    thunnam2c,
+    thunnam3a,
+    thunnam3b,
+    thunnam3c,
+    thunnam4a,
+    thunnam4b,
+    thunnam4c,
+    thunnam5a,
+    thunnam5b,
+    thunnam5c,
+    thunnam6a,
+    thunnam6b,
+    thunnam6c,
+    thunnam7a,
+    thunnam7b,
+    thunnam7c,
+    thunnam8a,
+    thunnam8b,
+    thunnam8c,
+    vestnam1a,
+    vestnam1b,
+    vestnam1c,
+    vestnam2a,
+    vestnam2b,
+    vestnam2c,
+    vestnam3a,
+    vestnam3b,
+    vestnam3c,
+    vestnam4a,
+    vestnam4b,
+    vestnam4c,
+    vestnam5a,
+    vestnam5b,
+    vestnam5c,
+    vestnam6a,
+    vestnam6b,
+    vestnam6c,
+    vestnam7a,
+    vestnam7b,
+    vestnam7c,
+    vestnam8a,
+    vestnam8b,
+    vestnam8c,
+    phaonam1a,
+    phaonam1b,
+    phaonam1c,
+    phaonam2a,
+    phaonam2b,
+    phaonam2c,
+    phaonam3a,
+    phaonam3b,
+    phaonam3c,
+    phaonam4a,
+    phaonam4b,
+    phaonam4c,
+    phaonam5a,
+    phaonam5b,
+    phaonam5c,
+    phaonam6a,
+    phaonam6b,
+    phaonam6c,
+    phaonam7a,
+    phaonam7b,
+    phaonam7c,
+    phaonam8a,
+    phaonam8b,
+    phaonam8c,
+    lungnam1a,
+    lungnam1b,
+    lungnam1c,
+    lungnam2a,
+    lungnam2b,
+    lungnam2c,
+    lungnam3a,
+    lungnam3b,
+    lungnam3c,
+    lungnam4a,
+    lungnam4b,
+    lungnam4c,
+    lungnam5a,
+    lungnam5b,
+    lungnam5c,
+    lungnam6a,
+    lungnam6b,
+    lungnam6c,
+    lungnam7a,
+    lungnam7b,
+    lungnam7c,
+    lungnam8a,
+    lungnam8b,
+    lungnam8c,
 };

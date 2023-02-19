@@ -19,6 +19,7 @@
     outline: none;
     padding: 10px;
     width: 60%;
+    border: 1px solid #666;
 }
 .method_pay {
     width: 100%;
@@ -117,13 +118,14 @@
 .hidepay {
     display: none;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .wrapper {
         display: block;
         padding: 0 8px;
     }
     .form_validate {
         width: 100%;
+        padding-left: 10px;
     }
     .input_form {
         width: 80%;

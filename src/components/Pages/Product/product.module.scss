@@ -70,6 +70,7 @@
     margin: 10px 8px;
     border: 1px solid #ccc;
     font-size: 14px;
+    cursor: pointer;
 }
 .wrap_soluong {
     display: flex;
@@ -275,7 +276,7 @@
         background-color: blue;
     }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .product_infor {
         display: block;
     }
@@ -303,5 +304,8 @@
     }
     .item_prd_same {
         width: 50%;
+    }
+    .introduction {
+        width: 100%;
     }
 }

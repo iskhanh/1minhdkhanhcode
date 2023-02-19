@@ -2,7 +2,6 @@ import { faCartShopping, faLocationDot, faMoneyCheckDollar, faTrash } from '@for
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
 import styles from './cart.module.scss';
-import prd1 from '../../../assets/img/prd1.jpg';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeItem } from '../../store/cartSlice';
 import { Link } from 'react-router-dom';
@@ -64,7 +63,7 @@ function Cart() {
                                                     <p>1</p>
                                                 </td>
                                                 <td>
-                                                    <p>{e.rice.toLocaleString() + 'đ'}</p>
+                                                    <p>{e.rice.toLocaleString().replace(/,/g, '.') + 'đ'}</p>
                                                 </td>
                                                 <td>
                                                     <FontAwesomeIcon
@@ -92,17 +91,23 @@ function Cart() {
                             </div>
                             <div className={cx('chitiet_pay')}>
                                 <h2 className={cx('title_rice_pay')}>Tổng tiền hàng</h2>
-                                <p className={cx('number_rice_pay')}>{data.totalRice.toLocaleString() + 'đ'}</p>
+                                <p className={cx('number_rice_pay')}>
+                                    {data.totalRice.toLocaleString().replace(/,/g, '.') + 'đ'}
+                                </p>
                             </div>
                             <div className={cx('chitiet_pay')}>
                                 <h2 className={cx('title_rice_pay')}>Thành tiền</h2>
-                                <p className={cx('number_rice_pay')}>{data.totalRice.toLocaleString() + 'đ'}</p>
+                                <p className={cx('number_rice_pay')}>
+                                    {data.totalRice.toLocaleString().replace(/,/g, '.') + 'đ'}
+                                </p>
                             </div>
                         </div>
                         <div className={cx('wrap_chitiet_prd_pay')}>
                             <div className={cx('chitiet_pay')}>
                                 <h2 className={cx('title_rice_pay')}>Tạm tính</h2>
-                                <p className={cx('number_rice_pay')}>{data.totalRice.toLocaleString() + 'đ'}</p>
+                                <p className={cx('number_rice_pay')}>
+                                    {data.totalRice.toLocaleString().replace(/,/g, '.') + 'đ'}
+                                </p>
                             </div>
                         </div>
                         <p className={cx('chuthich')}>

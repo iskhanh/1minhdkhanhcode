@@ -35,7 +35,7 @@
     margin-left: 20px;
 }
 .option_item_child {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin: 10px 0;
     font-weight: 400;
 }
@@ -116,7 +116,7 @@
     margin-right: 8px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .sidebar_cartegogy {
         display: none;
     }

@@ -258,6 +258,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo thun',
+        hot: 'sale',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -297,6 +298,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo thun',
+        hot: 'sale',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -310,6 +312,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo len',
+        hot: 'new',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -388,6 +391,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo len',
+        hot: 'new',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -401,6 +405,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo len',
+        hot: 'sale',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -414,6 +419,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo crop',
+        hot: 'sale',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -427,6 +433,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo crop',
+        hot: 'sale',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -440,6 +447,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo crop',
+        hot: 'new',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -505,6 +513,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo crop',
+        hot: 'new',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -518,6 +527,7 @@ const data = [
         desc: 'Áo thun cổ tròn dáng slim fit. Chất liệu vải thun mềm mịn, thoáng mát. Họa tiết thêu lạ mắt, nổi bật trên nền màu tươi sáng giúp item này thu hút hơn bao giờ hết. Phối cùng jeans hay chân váy là nàng đã có 1 set đồ đi chơi trẻ trung, năng động!',
         sexTitle: 'Nữ',
         branchTitle: 'Áo sơ mi',
+        hot: 'new',
     },
     {
         name: 'Áo  thun thêu họa tiết',
@@ -1037,4 +1047,8 @@ const getBySex = (info) => {
 const getById = (info) => {
     return data.filter((p) => p.id === info);
 };
-export { getBySlug, getById, getBySex };
+const getByHot = (info) => {
+    return data.filter((p) => p.hot === info);
+};
+
+export { getBySlug, getById, getBySex, getByHot };

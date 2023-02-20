@@ -5,7 +5,7 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link, useNavigate } from 'react-router-dom';
 import fb from '../../../assets/img/fb.png';
 import google from '../../../assets/img/google.png';
-import {  useState } from 'react';
+import { useState } from 'react';
 const cx = classNames.bind(styles);
 
 function Login() {
@@ -13,7 +13,6 @@ function Login() {
     const [errName, setErrNaerrName] = useState(false);
     const [checkName, setCheckName] = useState(false);
     const [checkSubmit, setCheckSubmit] = useState(false);
-    const label = 'ok'
     const [password, setPassword] = useState('');
     const [errPw, setErrPw] = useState(false);
     const navigate = useNavigate();
